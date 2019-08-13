@@ -34,6 +34,71 @@ html通过浏览器内核来解析，不用解释器或者浏览器
 
 常用样式，网页的显示效果
 
+CSS3被拆分为"模块"。旧规范已拆分成小块，还增加了新的。
+
+css3的圆角
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+<style> 
+#rcorners1 {
+    border-radius: 25px;
+    background: #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #8AC007;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background: url(/images/paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+</style>
+</head>
+<body>
+
+<p> border-radius 属性允许向元素添加圆角。</p>
+<p>指定背景颜色元素的圆角:</p>
+<p id="rcorners1">圆角</p>
+<p>指定边框元素的圆角:</p>
+<p id="rcorners2">圆角</p>
+<p>指定背景图片元素的圆角:</p>
+<p id="rcorners3">圆角</p>
+
+</body>
+</html>
+```
+
+
+
+一些最重要CSS3模块如下：
+
+- 选择器
+- 盒模型
+- 背景和边框
+- 文字特效
+- 2D/3D转换
+- 动画
+- 多列布局
+- 用户界面
+
 ## 3、Js
 
 用户的交互效果，动态效果
